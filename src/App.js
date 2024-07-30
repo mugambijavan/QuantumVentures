@@ -1,13 +1,12 @@
-import './App.css';
-
+import React from "react";
+import { Navbar } from './components';
+import './App.css'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          QuantumVentures
-        </p>
-      </header>
+      <div className="gradient__bg">
+        <Navbar />
+      </div>
     </div>
   );
 }
