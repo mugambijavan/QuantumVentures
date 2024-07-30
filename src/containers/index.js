@@ -1,0 +1,7 @@
+export { default as About} from './about/About'
+export { default as Blog} from './blog/Blog'
+export { default as CaseStudies} from './casestudies/CaseStudies'
+export { default as Contact} from './contact/Contact'
+export { default as Header} from './header/Header'
+export { default as Industries} from './industries/Industries'
+export { default as Services} from './services/Services'

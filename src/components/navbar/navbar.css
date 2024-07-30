@@ -9,6 +9,7 @@
     width: 100%; /* Ensure it spans the full width */
     background-color: var(--color-bg); /* Adjust according to your design */
     z-index: 1000; /* Ensure it stays above other elements */
+    height: 80px; /* Adjust height as needed */
 }
 
 .quantum__navbar-links {
@@ -133,4 +134,9 @@
     .quantum__navbar-menu_container-links-sign {
         display: block;
     }
+}
+
+/* Adding margin-top to the header to offset the navbar height */
+.quantum__header {
+    margin-top: 80px; /* Adjust based on the height of your navbar */
 }
