@@ -46,10 +46,6 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <header className="quantum__header">
-        {/* Your header content */}
-      </header>
-      {/* Rest of your content */}
     </div>
   );
 };
