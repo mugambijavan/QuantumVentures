@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --font-family: 'Monoton', cursive;
+  --font-family: 'Roboto', sans-serif;
 
 
   --gradient-text: linear-gradient(89.97deg, #FFFFFF 1.84%, #F5F5DC 102.67%);
