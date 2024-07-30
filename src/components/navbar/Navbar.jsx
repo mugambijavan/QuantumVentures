@@ -19,10 +19,12 @@
             
             <div className="quantum__navbar-links_container">
             <p><a href="#home" onClick={handleCloseMenu}>Home</a></p>
-            <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
-            <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
-            <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
-            <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
+            <p><a href="#about" onClick={handleCloseMenu}>About Us</a></p>
+            <p><a href="#services" onClick={handleCloseMenu}>Services</a></p>
+            <p><a href="#industries" onClick={handleCloseMenu}>Industries</a></p>
+            <p><a href="#case" onClick={handleCloseMenu}>Case Studies</a></p>
+            <p><a href="#blog" onClick={handleCloseMenu}>Blog</a></p>
+            <p><a href="#contact" onClick={handleCloseMenu}>Contact Us</a></p>
             </div>
         </div>
         <div className="quantum__navbar-menu">
@@ -32,11 +34,13 @@
             {toggleMenu && (
             <div className="quantum__navbar-menu_container scale-up-center">
             <div className="quantum__navbar-menu_container-links">
-                <p><a href="#home" onClick={handleCloseMenu}>Home</a></p>
-                <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
-                <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
-                <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
-                <p><a href="#menu" onClick={handleCloseMenu}>Menu</a></p>
+            <p><a href="#home" onClick={handleCloseMenu}>Home</a></p>
+            <p><a href="#about" onClick={handleCloseMenu}>About Us</a></p>
+            <p><a href="#services" onClick={handleCloseMenu}>Services</a></p>
+            <p><a href="#industries" onClick={handleCloseMenu}>Industries</a></p>
+            <p><a href="#case" onClick={handleCloseMenu}>Case Studies</a></p>
+            <p><a href="#blog" onClick={handleCloseMenu}>Blog</a></p>
+            <p><a href="#contact" onClick={handleCloseMenu}>Contact Us</a></p>
             </div>
             
             </div>
