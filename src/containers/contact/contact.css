@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: 'Monoton', cursive;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .contact-col {
@@ -56,19 +57,19 @@
   margin-bottom: 15px;
   margin-top: 5px;
   resize: none;
-  font-family: 'Monoton', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact form label {
   display: block;
-  font-family: 'Monoton', cursive;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
 }
 
 .contact-col span {
   display: block;
   margin: 20px 0;
-  font-family: 'Monoton', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn {
